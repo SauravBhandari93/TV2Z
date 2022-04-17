@@ -1,9 +1,9 @@
 import React from "react";
 import "./UserPage.css";
 import { Link } from "react-router-dom";
-import { CgFacebook } from "react-icons/cg";
-import { BsTwitter } from "react-icons/bs";
-import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
+// import { CgFacebook } from "react-icons/cg";
+// import { BsTwitter } from "react-icons/bs";
+// import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 // import TextField from "@mui/material/TextField";
 
 const UserPage = () => {
