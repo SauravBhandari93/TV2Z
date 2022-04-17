@@ -26,12 +26,18 @@ function App() {
     if (check.length !== 0) {
       if (check[0].password === password) {
         toast.success("Login Successfully");
+        setEmail("");
+        setPassword("");
         navigate("/user");
       } else {
         toast.error("Invalid password");
+        setEmail("");
+        setPassword("");
       }
     } else {
       toast.error("email not found");
+      setEmail("");
+      setPassword("");
     }
   };
 

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { CgFacebook } from "react-icons/cg";
 import { BsTwitter } from "react-icons/bs";
 import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
+// import TextField from "@mui/material/TextField";
 
 const UserPage = () => {
   return (
@@ -29,10 +30,47 @@ const UserPage = () => {
       </nav>
 
       <div className="card">
-        <div className="feedback-form"></div>
+        <div className="feedback-form">
+          <h2 className="feedback">Feedback</h2>
+          <h4 className="bug-text">
+            Have a bug or suggestion? Please fill the form below to report it to
+            us
+          </h4>
+          <div>
+            <textarea
+              rows={8}
+              cols={40}
+              className="teaxtarea1"
+              placeholder="Type your message here"
+            />
+          </div>
+          <div>
+            <textarea
+              rows={2}
+              cols={40}
+              className="teaxtarea2"
+              placeholder="Type your message here"
+            />
+          </div>
+          <div className="checkbox">
+            <span>
+              <input type="radio" className="bug" />
+              Bug
+            </span>
+            <span>
+              <input type="radio" className="suggestion" />
+              Suggestion
+            </span>
+            <span>
+              <input type="radio" />
+              Other
+            </span>
+          </div>
+          <button className="feedback-btn">SEND FEEDBACK</button>
+        </div>
       </div>
 
-      <footer className="footer1">
+      {/* <footer className="footer1">
         <nav className="main-nav">
           <div className="company-name">
             <h1>TV2Z</h1>
@@ -62,7 +100,7 @@ const UserPage = () => {
             </ul>
           </div>
         </nav>
-      </footer>
+      </footer> */}
       <footer className="footer">
         <p>&copy; 2020 WT TV2Z.All rights reserved.</p>
       </footer>
