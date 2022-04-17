@@ -1,0 +1,80 @@
+.main-nav{
+    width: 100%;
+    height: 6rem;
+    display: grid;
+    grid-template-columns: 1rem 0.1fr 0.8fr 1fr 10rem;
+    background: linear-gradient( to bottom, #091422 100%,#091422 84.8%, #091422 0%);
+}
+.company-name{
+    grid-column: 2/3;
+    color: #FFFFFF;
+}
+.list{
+    grid-column: 3/4;
+    color: #FFFFFF;
+}
+.list ul{
+    height: 6rem;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 2rem;
+    
+}
+.Logout{
+    grid-column: 4/5;
+    height: 6rem;
+    display: grid;
+    grid-column-start: -1;
+    
+}
+.link{
+    color: #FFFFFF;
+   text-decoration: none;
+}
+
+.footer{
+    position:absolute;
+        bottom:0;
+        display:block;  
+        width:100%;
+        background-color:#101827;
+  }
+  p{
+    text-align: center;
+   vertical-align: middle;
+   color: #4D4D4D;
+  }
+  .footer1{
+    margin-top: 24rem;
+    height: 7rem;
+    bottom: 0;
+    display:block;  
+    width:100%;
+    /* background: linear-gradient(to top,#107282 17%,#091422 100%); */
+    background-color:rgb(21, 64, 71);
+}
+.social-media{
+    grid-column: 4/5;
+}
+.social-media ul{
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.card{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.feedback-form{
+    width: 500px;
+  margin-top: 30px;
+  align-self: center;
+  padding: 50px;
+  border-radius: 20px;
+  position: relative;
+  background-color: #101827;
+  /* background: rgb(245, 242, 242); */
+  border: 1px solid black;
+}
